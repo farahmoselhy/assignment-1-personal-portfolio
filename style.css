@@ -1,0 +1,217 @@
+body{
+    background-color:#A7B5A0;
+}
+.header{
+    background-color: #F1EBDD;
+    width: 40%;
+    margin-inline: auto;
+    border: 5px #1B2A45 solid;
+    border-radius: 25px;
+    margin-block: 20px;
+}
+.header h1 , .header p {
+text-align: center;
+color: #1B2A45;
+
+}
+.header h1{font-size: 70px;
+margin-block: 10px;}
+.header p{font-size: 40px;
+    margin-bottom: 30px;}
+.container{
+    margin: auto;
+    text-align: center;
+}
+.content{
+    color:#F1EBDD;
+    font-size:35px ;
+    display:inline-block ;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    border: 5px #1B2A45 solid;
+    border-radius: 25px;
+    background-color: #1B2A45;
+    margin-inline: 40px;
+}
+
+/* ========== About me ========== */
+
+.about-me{
+    border: 5px #1B2A45 solid;
+    border-radius: 25px;
+    margin-block:20px ;
+    width: 90%;
+    margin: auto;
+    background-color: #F1EBDD;
+    
+}
+.about-me h2{
+    font-size: 90px;
+    color: #1B2A45;
+    padding-left: 20px;
+}
+.about-line{
+    width: 300px;
+    height: 10px;
+    background-color: #1B2A45;
+    margin-top: -60px;
+    margin-left:50px ;
+
+}
+.container-about{
+    margin-left: 20px;
+}
+.about-p{
+    width: 70%;
+    display:inline-block;
+    padding-inline: 25px;
+    font-size: 50;
+}
+
+.about-container-img{
+    display:inline-block;
+    margin: 0px 20px 50px 50px;
+}
+.about-img {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    border: 10px #A7B5A0 solid ;
+}
+/* ========== Skills ========== */
+.skills{
+    border: 5px #1B2A45 solid;
+    border-radius: 25px;
+    margin-block:50px ;
+    width: 90%;
+    margin-inline: auto;
+    background-color: #F1EBDD;
+}
+.container-skills{
+    margin-inline: auto;
+    width: 80%;
+}
+.skills h2{
+    font-size: 90px;
+    color: #1B2A45;
+    padding-left: 20px;
+}
+.skills-line{
+    width: 300px;
+    height: 10px;
+    background-color: #1B2A45;
+    margin-top: -60px;
+    margin-left:50px ;
+}
+.skills-tech .skills-line {
+    width: 500px;
+} 
+.skills-tech , .skills-non-tech{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.skills-tech {
+    margin-right: 300px;
+}
+.skills-tech li , .skills-non-tech li {
+    font-size: 50px;
+}
+/* ========== Experience Timeline ========== */
+.experience{
+    border: 5px #1B2A45 solid;
+    border-radius: 25px;
+    margin-block:20px ;
+    width: 90%;
+    margin: auto;
+    background-color: #F1EBDD;
+    
+}
+.experience h2{
+    font-size: 90px;
+    color: #1B2A45;
+    padding-left: 20px;
+}
+.experience-line{
+    width: 700px;
+    height: 10px;
+    background-color: #1B2A45;
+    margin-top: -60px;
+    margin-left:50px ;
+}
+.experience-li{
+    width: 70%;
+    display:inline-block;
+    padding-inline: 25px;
+    font-size: 50;
+    vertical-align: top;
+    
+}
+.experience-li li{
+    margin-bottom: 150px;
+}
+.container-experience{
+    margin-left: 20px;
+}
+.experience-container-img{
+    display:inline-block;
+    margin: 0px 20px 50px 50px;
+}
+.experience-img {
+    width: 400px;
+    border-radius: 25px;
+    border: 10px #A7B5A0 solid ;
+    display: block;
+}
+/* ========== Contact me ========== */
+
+.contact-me{
+    border: 5px #1B2A45 solid;
+    border-radius: 25px;
+    margin-block:20px ;
+    width: 90%;
+    margin: auto;
+    background-color: #F1EBDD;
+    margin-top: 20px;
+}
+.contact-me h2{
+    font-size: 90px;
+    color: #1B2A45;
+    padding-left: 20px;
+}
+.contact-line{
+    width: 350px;
+    height: 10px;
+    background-color: #1B2A45;
+    margin-top: -60px;
+    margin-left:50px ;
+}
+.container-contact{
+    width: 90%;
+    margin:30px auto;
+    text-align: center;
+}
+.contact-item span  {
+    font-size: 70px;
+    color:#A7B5A0;
+    display: block;
+    margin-bottom: 10px;
+}
+.contact-item a{
+    text-decoration: none;
+    color:white;
+    font-size: 50px;
+}
+.contact-item{
+    background-color:#1B2A45;
+    border-radius: 25px;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin: 5px 1%;
+    text-align: center;
+}
+
